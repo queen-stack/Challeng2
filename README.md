@@ -1,4 +1,4 @@
-# Chellenge 2
+# Challenge 2
 
 An effective portfolio highlights your strongest work as well as the thought processes behind it.  Purpose for this Challenge is to set yourself up for future success by applying the core skills you've recently learned: flexbox, CSS Grid Layout, media queries, and CSS variables. 
 
