@@ -4,10 +4,15 @@
     padding: 0;
 }
 
+
+
 body {
     background-color:    peachpuff
 }
-
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
 
 #resp-table {
     width: 100%;
@@ -27,7 +32,27 @@ body {
     font-size: 48px;
 }
 
-
+  
+  .header {
+    border: 100x dotted grey;
+    padding: 15px;
+  }
+  
+  .menu {
+    width: 25%;
+    float: left;
+    padding: 10px;
+    border: 1px solid grey;
+    overflow: visible;
+  }
+  
+  .main {
+    width: 75%;
+    float: left;
+    padding: 10px;
+    border: 1px solid grey;
+    overflow: visible;
+  }
 .content {
     width: 75%;
     margin: 0px auto;
@@ -47,37 +72,7 @@ body {
     background-position: center;
     border-radius: 20%;
 
-# example {
-    text-align: right;
-    float: left;
-    width: 30%;
-    height: 180px;
-    border-right: 15px rgb(32, 24, 16);
-}
 
-#example2 {
-    float: right;
-    width: 70%;
-}
-
-.grid-container {
-    display: grid;
-    background-color:grey;
-    padding: 10px;
-    height: 400px;
-  }
-  
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    font-size: 14px;
-    text-align: center;
-  }
-
-  #grid-item1 {
-    grid-column: 1 / span 3;
-    grid-row: 1 / 3;
-  }
 
   .footer {
     padding: 20px;
@@ -86,6 +81,19 @@ body {
     background-image: #ffffff 
     no-repeat right top;
    margin-left: 200px;
-
    }
-      
+   
+   a:hover {
+    background-color: black;
+  }
+
+  p {
+    font-size: 10px;
+}
+
+.vertical { 
+    border-left: 6px solid black; 
+    height: 400px; 
+    position: absolute; 
+    left: 50%; 
+} 
