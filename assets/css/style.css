@@ -1,7 +1,10 @@
 
 * {
+
     box-sizing: border-box;
-    padding: 0;
+    
+    
+
 }
 
 
@@ -14,12 +17,13 @@ body {
     margin-right: 25px;
 }
 
-#resp-table {
-    width: 100%;
-    display: table;
-    }
+.projects {
+width: 20%;
+
+
+}
     
-    .header div {
+    .header {
         padding-top: 10px;
         margin-right: 20px;
         float: right;
@@ -27,9 +31,9 @@ body {
         font-size: 20px;
     }
 
-.header h1 {
+.h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 40px;
 }
 
   
@@ -58,19 +62,20 @@ body {
     margin: 0px auto;
 }
 
-.about me{
+.about me {
     width: 100%;
 }
 
 .hero {
-    height: 650px;
+    height: 500px;
     width: 100%;
     margin-bottom: 25px;
     padding: 0%;
-    background-image: url("../images/presentation-01.jpg"); size: 400px;
+    background-image: url("../images/presentation-01.jpg"); size: 200px;
     background-size: cover;
     background-position: center;
     border-radius: 20%;
+}
 
 
 
@@ -81,19 +86,19 @@ body {
     background-image: #ffffff 
     no-repeat right top;
    margin-left: 200px;
+  
    }
    
-   a:hover {
+   .a:hover {
     background-color: black;
   }
 
-  p {
+  .p {
     font-size: 10px;
 }
 
-.vertical { 
-    border-left: 6px solid black; 
-    height: 400px; 
+.vertical {  
+    height: 300px; 
     position: absolute; 
     left: 50%; 
 } 
