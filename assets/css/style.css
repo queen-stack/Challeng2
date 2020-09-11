@@ -27,21 +27,16 @@ width: 20%;
     .header {
         padding-top: 10px;
         margin-right: 20px;
-        float: right;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 20px;
+        border: 100x dotted grey;
+        padding: 15px;
     }
 
 .h1 {
     display: inline-block;
     font-size: 40px;
 }
-
-  
-  .header {
-    border: 100x dotted grey;
-    padding: 15px;
-  }
   
   .menu {
     width: 25%;
@@ -69,8 +64,10 @@ width: 20%;
 
 .hero {
     height: 500px;
-    width: 100%;
+    width:75%;
     margin-bottom: 25px;
+    margin-left: 10%;
+    margin-top: 5%;
     padding: 0%;
     background-image: url("../images/presentation-01.jpg"); size: 200px;
     background-size: cover;
@@ -103,3 +100,7 @@ width: 20%;
     position: absolute; 
     left: 50%; 
 } 
+
+li {
+  list-style-type: none;
+}
